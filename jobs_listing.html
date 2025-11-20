@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jobs | Job Portal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">Job<span>Finder</span></div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="jobs.html" class="btn">Jobs</a></li>
+      <li><a href="companies.html">Companies</a></li>
+      <li><a href="login.html">Login</a></li>
+    </ul>
+  </nav>
+
+  <!-- Job Search Filter -->
+  <section class="jobs-filter">
+    <h2>Search Jobs</h2>
+
+    <div class="filter-box">
+      <input type="text" placeholder="Keyword (e.g., Developer)">
+      <select>
+        <option>Select Category</option>
+        <option>IT & Software</option>
+        <option>Engineering</option>
+        <option>Data Science</option>
+        <option>Marketing</option>
+      </select>
+      <select>
+        <option>Select Location</option>
+        <option>Chennai</option>
+        <option>Bangalore</option>
+        <option>Coimbatore</option>
+        <option>Hyderabad</option>
+      </select>
+      <button class="filter-btn">Search</button>
+    </div>
+  </section>
+
+  <!-- Job List -->
+  <section class="jobs-list-section">
+    <h2>Available Jobs</h2>
+
+    <div class="jobs-list">
+
+      <!-- Job Card 1 -->
+      <div class="job-card">
+        <h3>Software Engineer</h3>
+        <p>ABC Technologies</p>
+        <p>📍 Bangalore | 💰 ₹6–8 LPA</p>
+        <a href="job_detail.html" class="apply-btn">View Details</a>
+      </div>
+
+      <!-- Job Card 2 -->
+      <div class="job-card">
+        <h3>Front-End Developer</h3>
+        <p>Pixel Soft</p>
+        <p>📍 Chennai | 💰 ₹4–6 LPA</p>
+        <a href="job_detail.html" class="apply-btn">View Details</a>
+      </div>
+
+      <!-- Job Card 3 -->
+      <div class="job-card">
+        <h3>Data Analyst</h3>
+        <p>XYZ Analytics</p>
+        <p>📍 Hyderabad | 💰 ₹5–7 LPA</p>
+        <a href="job_detail.html" class="apply-btn">View Details</a>
+      </div>
+
+      <!-- Job Card 4 -->
+      <div class="job-card">
+        <h3>Python Developer</h3>
+        <p>CodeWave</p>
+        <p>📍 Coimbatore | 💰 ₹3–5 LPA</p>
+        <a href="job_detail.html" class="apply-btn">View Details</a>
+      </div>
+
+    </div>
+  </section>
+
+</body>
+</html>

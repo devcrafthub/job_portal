@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apply Job | Job Portal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">Job<span>Finder</span></div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="jobs.html">Jobs</a></li>
+      <li><a href="companies.html">Companies</a></li>
+      <li><a href="login.html">Login</a></li>
+    </ul>
+  </nav>
+
+  <!-- Apply Form Section -->
+  <section class="form-section">
+    <div class="form-container">
+      <h2>Apply for This Job</h2>
+
+      <form action="#" method="POST">
+
+        <label>Full Name</label>
+        <input type="text" placeholder="Enter your full name" required>
+
+        <label>Email</label>
+        <input type="email" placeholder="Enter your email" required>
+
+        <label>Phone Number</label>
+        <input type="text" placeholder="Enter your phone number" required>
+
+        <label>Upload Resume (PDF only)</label>
+        <input type="file" accept=".pdf" required>
+
+        <label>Cover Letter</label>
+        <textarea placeholder="Write your cover letter..." rows="5" required></textarea>
+
+        <button type="submit" class="form-btn">Submit Application</button>
+
+        <p class="redirect-text" style="text-align:center; margin-top:10px;">
+          You will be contacted if shortlisted.
+        </p>
+
+      </form>
+    </div>
+  </section>
+
+</body>
+</html>
+
